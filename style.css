@@ -1,0 +1,82 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 0 10px 0 10px;
+    font-weight: bolder;
+    color: rgb(40, 40, 40);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    height: 85%;
+    gap: 50px;
+}
+
+.game-grid{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    border: 10px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(230, 230, 230);
+    font-size: 2rem;
+}
+
+.footer{
+    height: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scorecard{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    text-align: center;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.player1{
+    color: rgb(184, 109, 109);
+}
+
+.player2{
+    color: rgb(101, 104, 245);
+}
+
+.turn{
+    font-size: 1.2rem;
+    color: silver;
+}
+/* .scorecard>*{
+    padding: 20px;
+} */
