@@ -20,13 +20,47 @@ html, body{
 
 
 .main{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(40, 40, 40);
     height: 85%;
     gap: 50px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 85%;
+    background-color: rgb(40, 40, 40);
+}
+
+.menu1>*{
+    background-color: whitesmoke;
+    color: rgb(40, 40, 40);
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.menu2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 85%;
+    background-color: rgb(40, 40, 40);
+}
+
+.menu2>*{
+    background-color: whitesmoke;
+    color: rgb(40, 40, 40);
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .game-grid{
